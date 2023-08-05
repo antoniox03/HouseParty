@@ -3,6 +3,6 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
-    path('', view= main)
+    path('', view= RoomView.as_view())
 ]
 
